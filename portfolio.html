@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="portfolio.css" media="all">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="maincontainer">
+        <div class="main1">
+            <div class="logo"> <span class="htext"> H </span> unter</div>
+            <hr>
+
+            <div class="navitem">
+                <li><a href="#home"><i class="fa-solid fa-house-chimney"></i>Home</a></li>
+                <li><a href="#about"><i class="fa-solid fa-address-card"></i>About</a></li>
+                <li><a href="#service"><i class="fa-solid fa-bars"></i>Services</a></li>
+                <li><a href="#portfolio"><i class="fa-solid fa-address-book"></i>portfolio</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-address-book"></i>Contact us</a></li>
+
+            </div>
+
+        </div>
+        <div class="home" id="home">
+            <div class="main2">
+                <div class="mainmenu">
+                    <i class="fa-solid fa-bars " onclick="menuhish()"></i>
+                    <hr>
+                </div>
+
+                <div class="themechanger">
+                    <div class="changebtn">
+                        <i class="fa-solid fa-gears" onclick="settinghideshow()"></i><br>
+                        <i class="fa-solid fa-sun" onclick="changedaynight()"></i>
+                    </div>
+                    <div class="changecolor" id="changecolor">
+                        <h6>Theme</h6>
+
+                        <i class="fa-solid fa-circle red"></i>
+                        <i class="fa-solid fa-circle yellow"></i>
+                        <i class="fa-solid fa-circle green"></i>
+                        <i class="fa-solid fa-circle pink"></i>
+                        <i class="fa-solid fa-circle purpul"></i>
+                        <i class="fa-solid fa-circle blue"></i>
+                    </div>
+
+
+                    </h2>
+                </div>
+                <div class="textarea">
+                    <h2>Hello, My Name is <span class="animatedname"> Faizan </span></h2>
+                    <h4>I am <span class="animatedskill"> web designer</span></h4>
+                    <article>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Eaque numquam perspiciatis facere illum rem quisquam
+                        excepturi et voluptatibus molestias sed. Corrupti, illum ab
+                        provident sed minima nihil laborum numquam vero. .
+                    </article>
+                    <button class="btnhire">Hire me</button>
+                </div>
+                <div class="picture">
+                    <img src="./download.jfif" alt="notwork">
+                </div>
+            </div>
+        </div>
+        <div class="about" id="about">
+            <h1>About</h1>
+            <h2>I'am Faizan Asif and <span class="animatedskill2">Web Developer</span></h2>
+            <article>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti cumque voluptatem officiis
+                obcaecati, natus eveniet consequatur excepturi nisi itaque enim, aspernatur blanditiis repudiandae
+                libero, ipsam explicabo. Dolorum sed vero laudantium, aspernatur atque non itaque reprehenderit quaerat
+                velit doloribus officiis ad exercitationem eum impedit asperiores culpa consectetur beatae nesciunt? In
+                reiciendis illo, consectetur, facilis placeat hic temporibus qui quisquam ipsum exercitationem iste sint
+                quos, pariatur ullam fugiat ad nulla adipisci error eum rem.</article>
+
+            <div class="container   details">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="row">
+                            <p class="infodetail">Birthday : <span>01 March 2004</span></p>
+                        </div>
+                        <div class="row">
+                            <p class="infodetail">Website : <span>www.candelsheo.com</span></p>
+                        </div>
+                        <div class="row">
+                            <p class="infodetail">Age : <span>18</span></p>
+                        </div>
+                        <div class="row">
+                            <p class="infodetail">Email : <span>fa921865@gmail.com</span></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+
+                        <div class="row">
+                            <p class="infodetail">Phone no : <span>03007272010</span></p>
+                        </div>
+                        <div class="row">
+                            <p class="infodetail">City : <span>Faisalabad</span></p>
+                        </div>
+                        <div class="row">
+                            <p class="infodetail">Degree : <span>Software Engenierr</span></p>
+                        </div>
+                        <div class="row">
+                            <p class="infodetail">Freelance : <span>Avaible</span></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 skilladd">
+                        <!-- <h4>Skill</h4> -->
+
+                        <div class="row">
+                            <p>HTML</p>
+                            <input type="range" min="0" max="100" value="100" disabled>
+                        </div>
+                        <div class="row">
+                            <p>CSS</p>
+                            <input type="range" min="0" max="100" value="90" disabled>
+                        </div>
+                        <div class="row">
+                            <p>JAVASCRIPT</p>
+                            <input type="range" min="0" max="100" value="50" disabled>
+                        </div>
+                        <div class="row">
+                            <p>PHP</p>
+                            <input type="range" min="0" max="100" value="70" disabled>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="aboutbtn">
+                <button class="aboutbtns">Download CV</button>
+                <button class="aboutbtns">Hire Me</button>
+            </div>
+            <div class="container">
+                <div class="row eduexp">
+                    <div class="col-lg-6 ">
+                        <div class="educlr">
+                            <h4>Eductaion</h4>
+                        </div>
+                        <div class="edu">
+                            <h3>2018-2020</h3>
+                            <h3>ICS in Copmuter Scienve</h3>
+                            <article>Lorem ipsum dolor sit amet, quibusdam expedita tenetur blanditiis, dae non qui
+                                praesentium voluptates corrupti Quo eveniet eos numquam earum commodi, molestiae facere
+                                quisquam officiis dolores sequi?</article>
+                            <h3>2018-2020</h3>
+                            <h3>ICS in Copmuter Scienve</h3>
+                            <article>Lorem ipsum dolor sit amet, quibusdam expedita tenetur blanditiis, dae non qui
+                                praesentium voluptates corrupti Quo eveniet eos numquam earum commodi, molestiae facere
+                                quisquam officiis dolores sequi?</article>
+                            <h3>2018-2020</h3>
+                            <h3>ICS in Copmuter Scienve</h3>
+                            <article>Lorem ipsum dolor sit amet, quibusdam expedita tenetur blanditiis, dae non qui
+                                praesentium voluptates corrupti Quo eveniet eos numquam earum commodi, molestiae facere
+                                quisquam officiis dolores sequi?</article>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 experience">
+                        <div class="expclr">
+                            <h4>Experience</h4>
+                        </div>
+                        <div class="edu">
+                            <h3>2018-2020</h3>
+                            <h3>ICS in Copmuter Scienve</h3>
+                            <article>Lorem ipsum dolor sit amet, quibusdam expedita tenetur blanditiis, dae non qui
+                                praesentium voluptates corrupti Quo eveniet eos numquam earum commodi, molestiae facere
+                                quisquam officiis dolores sequi?</article>
+                            <h3>2018-2020</h3>
+                            <h3>ICS in Copmuter Scienve</h3>
+                            <article>Lorem ipsum dolor sit amet, quibusdam expedita tenetur blanditiis, dae non qui
+                                praesentium voluptates corrupti Quo eveniet eos numquam earum commodi, molestiae facere
+                                quisquam officiis dolores sequi?</article>
+                            <h3>2018-2020</h3>
+                            <h3>ICS in Copmuter Scienve</h3>
+                            <article>Lorem ipsum dolor sit amet, quibusdam expedita tenetur blanditiis, dae non qui
+                                praesentium voluptates corrupti Quo eveniet eos numquam earum commodi, molestiae facere
+                                quisquam officiis dolores sequi?</article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="service" id="service">
+            <div class="container">
+                <div class="serheading">
+                    <h1>Services</h1>
+                    <div class="row serviece1">
+                        <div class="col-lg-3 servicebox1">
+                            <i class="fa-solid fa-compass-drafting"></i>
+                            <h3>Web Design</h3>
+                            <article>Lorem ipsum, impedit porro totam eos ea,
+                                molestiae deserunt possimus.</article>
+                        </div>
+                        <div class="col-lg-3 servicebox1">
+                            <i class="fa-solid fa-mobile-button"></i>
+                            <h3>Web Design</h3>
+                            <article>Lorem ipsum, impedit porro totam eos ea,
+                                molestiae deserunt possimus.</article>
+                        </div>
+                        <div class="col-lg-3 servicebox1">
+                            <i class="fa-solid fa-palette"></i>
+                            <h3>Web Design</h3>
+                            <article>Lorem ipsum, impedit porro totam eos ea,
+                                molestiae deserunt possimus.</article>
+                        </div>
+                    </div>
+                    <div class="row serviece2">
+                        <div class="col-lg-3 servicebox1">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Web Design</h3>
+                            <article>Lorem ipsum, impedit porro totam eos ea,
+                                molestiae deserunt possimus.</article>
+                        </div>
+                        <div class="col-lg-3 servicebox1">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <h3>Web Design</h3>
+                            <article>Lorem ipsum, impedit porro totam eos ea,
+                                molestiae deserunt possimus.</article>
+                        </div>
+                        <div class="col-lg-3 servicebox1">
+                            <i class="fa-solid fa-bullhorn"></i>
+                            <h3>Web Design</h3>
+                            <article>Lorem ipsum, impedit porro totam eos ea,
+                                molestiae deserunt possimus.</article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="portfolioheading">
+                    <h1>portfolio</h1>
+                </div>
+                <div class="portfolioheading2">
+                    <h5>My last Porject :
+
+                    </h5>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 portfolioimg">
+                        <img src="./image/pic1.jpg" alt="notwork">
+                    </div>
+                    <div class="col-lg-4 portfolioimg">
+                        <img src="./image/pic2.jpg" alt="notwork">
+                    </div>
+                    <div class="col-lg-4 portfolioimg">
+                        <img src="./image/pic3.jpg" alt="notwork">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 portfolioimg">
+                        <img src="./image/pic4.jpg" alt="notwork">
+                    </div>
+                    <div class="col-lg-4 portfolioimg">
+                        <img src="./image/pic5.jpg" alt="notwork">
+                    </div>
+                    <div class="col-lg-4 portfolioimg">
+                        <img src="./image/pic6.png" alt="notwork">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Contact" id="contact">
+            <div class="container">
+                <div class="contactheading">
+                    <h1>Contact US</h1>
+                </div>
+                <div class="contactheading1">
+                    <h4>Have You Any Question ?</h4>
+                </div>
+                <div class="contactheading2">
+                    <h5>i'am at your service</h5>
+                </div>
+                <div class="row contact1">
+                    <div class="col-lg-3 contactbox1">
+                        <i class="fa-solid fa-compass-drafting"></i>
+                        <h4>Call Us on</h4>
+                        <article>+923078666625</article>
+                    </div>
+                    <div class="col-lg-3 contactbox1">
+                        <i class="fa-solid fa-compass-drafting"></i>
+                        <h4>Office</h4>
+                        <article>Islamabad</article>
+                    </div>
+                    <div class="col-lg-3 contactbox1">
+                        <i class="fa-solid fa-mobile-button"></i>
+                        <h4>Email</h4>
+                        <article>fa921865@gmail.com</article>
+                    </div>
+                    <div class="col-lg-3 contactbox1">
+                        <i class="fa-solid fa-palette"></i>
+                        <h4>Website</h4>
+                        <article>www.candleSheo.com</article>
+                    </div>
+                </div>
+                <div class="contactheading1">
+                    <h4>Send Me An email</h4>
+                </div>
+                <div class="contactheading2">
+                    <h5>i'am very responsive</h5>
+                </div>
+                <div class="form">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                          
+                          <input type="email" class="form-control" id="inputEmail4" placeholder="Name">
+                        </div>
+                        <div class="col-md-6">
+                          
+                          <input type="email" class="form-control" id="inputPassword4" placeholder="Email">
+                        </div>
+                       
+                       
+                        <div class="col-md-12">
+                          
+                          <input type="text" class="form-control" id="inputZip" placeholder="Subject">
+                        </div>
+                        <div class="col-md-12">
+                          
+                         <textarea name="" id="" cols="127" rows="10" placeholder="Enter Text"></textarea>
+                        </div>
+                        
+                        <div class="col-12 ">
+                          <button type="submit" class="btn massagebtn">Send Massage</button>
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+    <script src="./portfolio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
